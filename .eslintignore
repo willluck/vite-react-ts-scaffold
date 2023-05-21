@@ -1,0 +1,9 @@
+/dist
+*.scss
+*.css
+/node_modules
+/build
+vite.config.ts
+.eslintrc.js
+.eslintrc.cjs
+*.html
