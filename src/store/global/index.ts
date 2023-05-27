@@ -38,7 +38,7 @@ interface ILoginRes {
 
 export const COMMON_MESSAGE_KEY = 'commonMessageKey';
 
-export const TOKEN_LOCAL_KEY = 'vite-react-ts-scaffold';
+export const TOKEN_LOCAL_KEY = 'tally-book-token';
 
 class Global implements IGlobal {
     token = '';

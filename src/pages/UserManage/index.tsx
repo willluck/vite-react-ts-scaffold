@@ -36,7 +36,7 @@ const UserManage = observer(() => {
     return (
         <PageContent>
             <section className={styles.searchContent}>
-                <Form form={form}>
+                <Form>
                     <Row gutter={24}>
                         <Col span={4}>
                             <Form.Item name="username" label="用户名称">

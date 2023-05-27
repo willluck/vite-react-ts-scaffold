@@ -4,7 +4,7 @@
  */
 import {AxiosResponse} from 'axios';
 import {message} from 'antd';
-import global, {COMMON_MESSAGE_KEY} from '@src/store/Global';
+import global, {COMMON_MESSAGE_KEY} from '@src/store/global';
 
 export default function accessInterceptor(res: AxiosResponse): AxiosResponse | Promise<AxiosResponse> {
     if (res.data.code === 400 || res.data.code === 401) {
